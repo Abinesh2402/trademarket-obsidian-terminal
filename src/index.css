@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-body: "Geist", sans-serif;
+
+  --color-canvas: #10131a;
+  --color-surface-lowest: #0b0e14;
+  --color-surface-low: #191c22;
+  --color-surface: #10131a;
+  --color-surface-card: #1d2026;
+  --color-surface-high: #272a31;
+  --color-surface-highest: #32353c;
+  --color-cyan-glow: #00f0ff;
+  --color-neon-green: #05e777;
+  --color-emerald-accent: #7dffa2;
+  --color-crimson-red: #ff3b30;
+  --color-red-deep: #93000a;
+  --color-muted-border: #3b494b;
+  --color-muted-text: #849495;
+  --color-text-subtle: #b9cacb;
+  --color-text-main: #e1e2eb;
+}
+
+/* Material symbol utilities */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Enforce tabular numbers for financial figures */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+body {
+  background-color: #10131a;
+  color: #e1e2eb;
+  font-family: 'Geist', sans-serif;
+  overflow-x: hidden;
+}

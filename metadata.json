@@ -1,0 +1,8 @@
+{
+  "name": "TradeMarket - Obsidian Terminal",
+  "description": "High-velocity institutional cryptocurrency trading terminal with real-time markets overview, spot order books, interactive candlestick charts, and instant fast swap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
