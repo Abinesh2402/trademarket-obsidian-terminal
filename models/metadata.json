@@ -1,0 +1,13 @@
+{
+  "model_name": "Hybrid LogisticRegression + MultinomialNB Ensemble",
+  "vectorizer": "TF-IDF (1,2-grams, sublinear_tf=True, 5000 features)",
+  "accuracy": 0.9855,
+  "precision": 0.9833,
+  "recall": 0.9008,
+  "f1_score": 0.9402,
+  "roc_auc": 0.9937,
+  "cv_mean_f1": 0.9262,
+  "samples_trained": 4136,
+  "samples_evaluated": 1035,
+  "dataset": "UCI SMS Spam Collection (5574 messages)"
+}

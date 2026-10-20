@@ -1,0 +1,291 @@
+{
+  "dataset_info": {
+    "total_samples": 5171,
+    "ham_count": 4518,
+    "spam_count": 653,
+    "vocabulary_size": 5000
+  },
+  "models_benchmark": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 98.26,
+      "precision": 98.29,
+      "recall": 87.79,
+      "f1_score": 92.74,
+      "roc_auc": 98.93,
+      "cv_mean_f1": 93.38,
+      "cv_std_f1": 2.68,
+      "confusion_matrix": {
+        "true_negative": 902,
+        "false_positive": 2,
+        "false_negative": 16,
+        "true_positive": 115
+      }
+    },
+    "Complement Naive Bayes": {
+      "accuracy": 97.1,
+      "precision": 84.83,
+      "recall": 93.89,
+      "f1_score": 89.13,
+      "roc_auc": 98.93,
+      "cv_mean_f1": 86.58,
+      "cv_std_f1": 1.58,
+      "confusion_matrix": {
+        "true_negative": 882,
+        "false_positive": 22,
+        "false_negative": 8,
+        "true_positive": 123
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 97.39,
+      "precision": 90.0,
+      "recall": 89.31,
+      "f1_score": 89.66,
+      "roc_auc": 99.24,
+      "cv_mean_f1": 92.49,
+      "cv_std_f1": 2.31,
+      "confusion_matrix": {
+        "true_negative": 891,
+        "false_positive": 13,
+        "false_negative": 14,
+        "true_positive": 117
+      }
+    },
+    "Calibrated Linear SVC": {
+      "accuracy": 97.97,
+      "precision": 95.08,
+      "recall": 88.55,
+      "f1_score": 91.7,
+      "roc_auc": 99.29,
+      "cv_mean_f1": 92.99,
+      "cv_std_f1": 2.26,
+      "confusion_matrix": {
+        "true_negative": 898,
+        "false_positive": 6,
+        "false_negative": 15,
+        "true_positive": 116
+      }
+    },
+    "Random Forest (100 Trees)": {
+      "accuracy": 98.26,
+      "precision": 98.29,
+      "recall": 87.79,
+      "f1_score": 92.74,
+      "roc_auc": 99.46,
+      "cv_mean_f1": 92.33,
+      "cv_std_f1": 1.8,
+      "confusion_matrix": {
+        "true_negative": 902,
+        "false_positive": 2,
+        "false_negative": 16,
+        "true_positive": 115
+      }
+    }
+  },
+  "explainability": {
+    "top_spam_indicators": [
+      {
+        "word": "txt",
+        "weight": 5.979
+      },
+      {
+        "word": "mobile",
+        "weight": 5.171
+      },
+      {
+        "word": "uk",
+        "weight": 4.999
+      },
+      {
+        "word": "www",
+        "weight": 4.822
+      },
+      {
+        "word": "reply",
+        "weight": 4.408
+      },
+      {
+        "word": "claim",
+        "weight": 4.402
+      },
+      {
+        "word": "50",
+        "weight": 4.325
+      },
+      {
+        "word": "text",
+        "weight": 4.22
+      },
+      {
+        "word": "free",
+        "weight": 4.132
+      },
+      {
+        "word": "new",
+        "weight": 4.053
+      },
+      {
+        "word": "150p",
+        "weight": 3.975
+      },
+      {
+        "word": "com",
+        "weight": 3.814
+      },
+      {
+        "word": "stop",
+        "weight": 3.596
+      },
+      {
+        "word": "prize",
+        "weight": 3.529
+      },
+      {
+        "word": "won",
+        "weight": 3.369
+      },
+      {
+        "word": "service",
+        "weight": 3.323
+      },
+      {
+        "word": "chat",
+        "weight": 3.247
+      },
+      {
+        "word": "win",
+        "weight": 2.986
+      },
+      {
+        "word": "18",
+        "weight": 2.98
+      },
+      {
+        "word": "urgent",
+        "weight": 2.902
+      },
+      {
+        "word": "http",
+        "weight": 2.888
+      },
+      {
+        "word": "video",
+        "weight": 2.858
+      },
+      {
+        "word": "arsenal",
+        "weight": 2.765
+      },
+      {
+        "word": "sms",
+        "weight": 2.761
+      },
+      {
+        "word": "services",
+        "weight": 2.56
+      }
+    ],
+    "top_ham_indicators": [
+      {
+        "word": "ok",
+        "weight": -2.754
+      },
+      {
+        "word": "home",
+        "weight": -2.276
+      },
+      {
+        "word": "ll",
+        "weight": -2.162
+      },
+      {
+        "word": "da",
+        "weight": -2.154
+      },
+      {
+        "word": "gt",
+        "weight": -2.136
+      },
+      {
+        "word": "lt",
+        "weight": -2.128
+      },
+      {
+        "word": "lor",
+        "weight": -2.081
+      },
+      {
+        "word": "got",
+        "weight": -1.945
+      },
+      {
+        "word": "later",
+        "weight": -1.898
+      },
+      {
+        "word": "way",
+        "weight": -1.882
+      },
+      {
+        "word": "lt gt",
+        "weight": -1.881
+      },
+      {
+        "word": "come",
+        "weight": -1.871
+      },
+      {
+        "word": "hey",
+        "weight": -1.714
+      },
+      {
+        "word": "don",
+        "weight": -1.685
+      },
+      {
+        "word": "lol",
+        "weight": -1.629
+      },
+      {
+        "word": "oh",
+        "weight": -1.613
+      },
+      {
+        "word": "doing",
+        "weight": -1.537
+      },
+      {
+        "word": "want",
+        "weight": -1.524
+      },
+      {
+        "word": "yeah",
+        "weight": -1.52
+      },
+      {
+        "word": "yup",
+        "weight": -1.497
+      },
+      {
+        "word": "going",
+        "weight": -1.476
+      },
+      {
+        "word": "wat",
+        "weight": -1.437
+      },
+      {
+        "word": "pls",
+        "weight": -1.413
+      },
+      {
+        "word": "said",
+        "weight": -1.394
+      },
+      {
+        "word": "say",
+        "weight": -1.372
+      }
+    ]
+  }
+}
